@@ -1,11 +1,11 @@
 variable "project_name" {
-    default = string
+    type = string
 }
 variable "environment" {
-    default = string
+    type = string
 }
 variable "sg_name" {
-    default = string
+    type = string
 }
 variable "common_tags" {
     default = {}
@@ -15,5 +15,5 @@ variable "sg_tags" {
 }
 
 variable "vpc_id" {
-    default = string
+    type = string
 }
